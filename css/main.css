@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+	padding: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body {
+    background: #efffec;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.cont_1 {
+    display: flex;
+    flex-direction: column;
+}
+.card_one {
+    display: block;
+    background: rgb(210, 255, 251);
+    width: 265px;
+    height: 350px;
+    border: 2px solid rgb(82, 156, 153);
+    margin: 70px 100px;
+    border-radius: 14px;
+    box-shadow: -15px -15px 5px rgb(171, 232, 230);
+}
+
+.card_one_top {
+    display: block;
+    color:#2a723e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: left;
+    margin: 16px;
+    border-bottom: solid 3px #2a723e;
+}
+
+.card_one_main {
+    display: block;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 30px;
+    color: #092f14;
+}
+
+.button_1 {
+    margin: 0 auto;
+    display: block;
+    background: #e4f7e0;
+    width: 40%;
+    font-weight: 400;
+    font-size: 17px;
+    color: #2a723e;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #2a723e;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+.button_1:hover {
+    background: rgba(106, 255, 106, 0.795);
+}
+    
+
+.card_two {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: rgb(255, 239, 203);
+    width: 400px;
+    height: 520px;
+    border: 2px solid #2a723e;
+    margin: 70px 100px;
+    box-shadow: 15px 15px 5px #69a87b;
+}
+
+.img_1 {
+    display: block;
+    width: 400px;
+}
+
+.hed {
+    display: block;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin: 0 20px;
+    margin-top: 12px;
+    color: #092f14;
+}
+
+.hed_1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #092f14;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.main {
+    display: block;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: #092f14;
+    margin: 10px 20px;
+}
+
+.card_three {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: rgb(187, 223, 239);
+    width: 550px;
+    height: 300px;
+    border: 2px solid #15597d;
+    margin: 70px 0 70px 100px ;
+    box-shadow: -15px 15px 5px #90dcc0;
+}
+
+.img_2 {
+    display: block;
+    height: 300px;
+}
+
+.main_1 {
+    display: block;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: #092f14;
+    margin: 14px 14px;
+}
+
+.button_2 {
+    display: block;
+    background: #2586ba;
+    width: 110px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #79e397;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #79e397;
+    cursor: pointer; 
+    margin-left: 150px;
+    margin-top: 10px;
+} 
+
+.button_2:hover {
+    background: rgb(106, 106, 249);
+}
